@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(249, 129, 147);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100%;
+}
+.container{
+    background-color: lightpink;
+    width: 80%;
+    max-width:500px;
+    padding: 20px;
+    height: 60%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+header{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+header span{
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+form .row{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form .row label{
+    font-weight: 550;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+form .row textarea{
+    height: 100px;
+    padding: 5px;
+    font-size: 20px;
+    border: 3px solid rgb(113, 93, 93);
+}
+form .row select{
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: 3px solid rgb(113, 93, 93);
+    
+}
+button{
+    padding: 15px 60px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: rgb(223, 103, 121);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #fff;
+    color: rgb(223, 103, 121);
+    border: 3px solid rgb(113, 93, 93);
+}
