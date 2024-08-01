@@ -34,4 +34,7 @@ You need a web browser to run this application. Any modern browser such as Chrom
 2. Enter the text you want to convert to speech in the input field.
 3. Click the "Convert to Speech" button to hear the text spoken aloud.
 
+## Author
+This project is developed by Ritika Singh.
+
  
